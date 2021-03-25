@@ -17,3 +17,6 @@ if ( selection === "introduce" ) {
 }else{
     document.write('<h1> You do not select anything to view or enter something that does not exist </h1>');
 }
+
+
+confirm("Thank you for visiting the page")
