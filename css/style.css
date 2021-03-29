@@ -1,0 +1,153 @@
+nav {
+    display: flex;
+}
+
+nav a {
+    margin-left: 10%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inherit;
+    margin-left: 20%;
+}
+
+nav li {
+    margin-right: 25px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid #58318a;
+}
+
+main{
+    background-color: #efefef;
+
+}
+
+.sec1 {
+    display: flex;
+    height: 500px;
+
+}
+.sec1 img {
+    position: absolute;
+    right: 0%;
+    width: auto;
+    height: 500px;
+}
+.sec1 h1 {
+    display: block;
+    font-weight: 700;
+    font-size: 55px;
+    color: #58318a;
+}
+.sec1 h3 {
+    display: block;
+    font-size: 35px;
+    color: #58318a;
+    font-weight: 400;
+}
+.sec1 p {
+    line-height: 22px;
+    font-size: 16px;
+    text-align: justify;
+    margin: 18px 0 0 0;
+    color: #959595;
+    width: 500px;
+}
+.sec1 div {
+    margin-left: 10%;
+}
+
+
+.sec2 {
+    margin-top: 5%;
+    display: flex;
+    height: 500px;
+
+}
+.sec2 img {
+    position: absolute;
+    right: 0%;
+    width: auto;
+    height: 500px;
+    width: 320px ;
+    height: auto;
+    margin-right: 4%;
+
+}
+.sec2 h1 {
+    display: block;
+    font-weight: 700;
+    font-size: 45px;
+    color: #58318a;
+    width: 70%;
+}
+.sec2 h3 {
+    display: block;
+    font-size: 35px;
+    color: #58318a;
+    font-weight: 400;
+    width: 70%;
+}
+.sec2 p {
+    line-height: 22px;
+    font-size: 16px;
+    text-align: justify;
+    margin: 18px 0 0 0;
+    color: #959595;
+    width: 500px;
+    width: 70%;
+}
+.sec2 div {
+    margin-left: 10%;
+    margin-top: 7%;
+}
+.numbers-container {
+    display: flex;
+    text-align: center;
+    background-color: #9c3089;
+    /* height: 200px; */
+    color: whitesmoke;
+
+    
+}
+.numbers-container div {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+
+footer {
+    display: flex;
+    margin-top: 11.9%;
+    /* background-color: plum; */
+    text-align: center;
+    color: wheat;
+    background-color: #000000;
+    margin-top: -3%;
+    height: 200px;
+}
+footer div {
+    margin-top: 2%;
+    width: 25%;
+}
+footer ul {
+    list-style-type: none;
+
+}
+
+
+footer .connect img{
+    width: 30px;
+}
+
+

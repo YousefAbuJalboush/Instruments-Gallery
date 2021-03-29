@@ -22,26 +22,57 @@
 // confirm("Thank you for visiting the page")
 
 
-var selectAsac = prompt('What do you want to see the faculty picture? Information about the software development scholarship :' , ' faculty , scholarship ' );
-
-while( selectAsac !== 'faculty' && selectAsac !== 'scholarship' ){
-
-    selectAsac = prompt('please enter on of the following  ( faculty or scholarship )');
-}
-console.log(selectAsac);
-var numRepeat = prompt( 'How many ' + selectAsac + ' would you like to see ?' );
+// var selectAsac = prompt('What do you want to see the faculty picture? Information about the software development scholarship :' , ' faculty , scholarship ' );
 
 
-var Output = '';
-console.log(Output);
 
-for( var i = numRepeat ; i > 0 ; i-- ){
-    if(selectAsac === 'faculty'){
-        Output += '<img src="unnamed.jpg"/>';
-    }else if(selectAsac === 'scholarship'){
-        Output += '<img src="scholarship.jpg"/>';
+// while( selectAsac !== 'faculty' && selectAsac !== 'scholarship' ){
+
+//     selectAsac = prompt('please enter on of the following  ( faculty or scholarship )');
+// }
+
+
+
+// console.log(selectAsac);
+// var numRepeat = prompt( 'How many ' + selectAsac + ' would you like to see ?' );
+
+
+// var Output = '';
+// console.log(Output);
+
+// for( var i = numRepeat ; i > 0 ; i-- ){
+//     if(selectAsac === 'faculty'){
+//         Output += '<img src="unnamed.jpg"/>';
+//     }else if(selectAsac === 'scholarship'){
+//         Output += '<img src="scholarship.jpg"/>';
+//     }
+// }
+
+// console.log(Output);
+// document.write(Output);
+
+function multiplication ( num1 , num2 ){
+    var result = '';
+    for (let i = 1; i <= num2 ; i++) {
+
+        result += num1 + ' * ' + i + ' = ' + ( num1 * i ) +'  |  |  ' ;  
+        
     }
+
+    return result ;
+
 }
 
-console.log(Output);
-document.write(Output);
+
+alert("Welcome to My Work ! ");
+
+alert("To do a js lab, we will create a multiplication table for you for any number you want");
+
+var selection = prompt('Enter any integer for which you want to create a multiplication table' , 'integer' );
+
+var selection2 = prompt('To which number we will get from a sum multiplied ' + selection + ' with another number (of course we will start from the number 1)' , 'integer' );
+
+
+var outPut = multiplication( selection , selection2 );
+
+document.write('<p>Table of multiplication of the number '+ selection +' : </p>'+ '<p> '+ outPut +' </p>');
